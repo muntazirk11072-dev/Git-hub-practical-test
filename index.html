@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Muntazir Khan, a BTech CS and IT student.">
+  <title>Muntazir Khan | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="logo" href="#home">MK<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle colour theme">☾</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Muntazir <span>Khan</span></h1>
+        <h2>BTech CS &amp; IT Student</h2>
+        <p class="intro">I’m a technology student interested in programming, web development, and building useful digital solutions. I enjoy learning by creating projects and collaborating with others.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View my work</a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Portfolio introduction card">
+        <div class="avatar">MK</div>
+        <p class="card-label">CURRENT FOCUS</p>
+        <h3>Learning. Building. Improving.</h3>
+        <p>Developing my skills in computer science and frontend development.</p>
+        <span class="status"><i></i> Open to learning opportunities</span>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p class="section-text">I am pursuing a BTech in Computer Science and Information Technology at Ajeenkya DY Patil University. I’m building a strong foundation in programming and web technologies, and I like turning ideas into practical projects.</p>
+        <p class="section-text">I was part of a hackathon team that secured the runner-up position with <strong>Smart Education</strong>, a project designed to help trainees understand their skills and discover relevant job opportunities.</p>
+      </div>
+    </section>
+
+    <section class="section alt" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I'M LEARNING</p>
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skill-grid">
+          <article class="skill-card"><span>01</span><h3>C Programming</h3><p>Learning programming fundamentals and problem-solving.</p></article>
+          <article class="skill-card"><span>02</span><h3>HTML</h3><p>Creating structured and accessible webpages.</p></article>
+          <article class="skill-card"><span>03</span><h3>CSS</h3><p>Styling responsive layouts and user interfaces.</p></article>
+          <article class="skill-card"><span>04</span><h3>JavaScript</h3><p>Practising interactive features for the web.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow">SOME THINGS I'VE WORKED ON</p>
+        <h2 class="section-title">Featured <span>Project</span></h2>
+        <article class="project-card">
+          <div class="project-number">PROJECT 01</div>
+          <div>
+            <h3>Smart Education</h3>
+            <p>A hackathon project that helps unemployed youth assess their skills, identify areas to improve, and explore job suggestions based on their skill profiles. An admin view helps identify candidates whose skills match hiring requirements.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Hackathon</span></div>
+          </div>
+          <div class="project-award">Runner-up<br><small>Hackathon</small></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="contact">
+      <div class="container narrow contact-box">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 class="section-title">Get in <span>Touch</span></h2>
+        <p class="section-text">Have a project idea, an opportunity, or just want to connect? Feel free to reach out.</p>
+        <!-- Replace the example email and profile links with your own before publishing. -->
+        <a class="button primary" href="mailto:your-email@example.com">Email me</a>
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Muntazir Khan. Built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
